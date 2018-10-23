@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_citas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.evidencia.godhc.CitasMedicas.Citas">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/logo"
+        android:id="@+id/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <DatePicker
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/datePicker"
+        android:layout_below="@+id/logo"
+        android:layout_alignStart="@+id/logo"
+        android:layout_alignParentEnd="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:text="Cita 1: 16:30horas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:id="@+id/textView4"
+        android:textSize="25sp"
+        android:layout_below="@+id/datePicker"
+        android:layout_alignStart="@+id/logo" />
+
+    <TextView
+        android:text="Cita 2: 18:30horas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cita1"
+        android:textSize="25sp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+    <TextView
+        android:text="Cita 3: 20:30horas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:id="@+id/textView2"
+        android:textSize="25sp"
+        android:layout_below="@+id/cita1"
+        android:layout_alignStart="@+id/cita1" />
+
+    <Button
+        android:text="Crear Cita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:id="@+id/btn_create_citas"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/agenda" />
+
+
+</RelativeLayout>
