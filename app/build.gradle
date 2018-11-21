@@ -1,13 +1,11 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion '27.0.3'
+    compileSdkVersion 26
     defaultConfig {
-        //applicationId "com.example.godhc.myapplication"
-        applicationId "com.evidencia.godhc.CitasMedicas"
+        applicationId "info.androidhive.sqlite"
         minSdkVersion 23
-        targetSdkVersion 25
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -21,15 +19,23 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
-    compile 'com.android.support:appcompat-v7:25.0.0'
-    compile 'com.google.firebase:firebase-core:9.0.0'
-    compile 'com.google.firebase:firebase-database:9.0.0'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.android.support:support-v4:25.0.0'
-    compile 'com.android.support:design:25.0.0'
-    testCompile 'junit:junit:4.12'
+    implementation 'com.android.support:design:26.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+
+    implementation 'com.android.support:recyclerview-v7:26.1.0'
+
+    compile 'com.google.android.gms:play-services-auth:11.8.0'
+    compile 'pub.devrel:easypermissions:0.3.0'
+    compile('com.google.api-client:google-api-client-android:1.23.0') {
+        exclude group: 'org.apache.httpcomponents'
+    }
+    compile('com.google.apis:google-api-services-calendar:v3-rev308-1.23.0') {
+        exclude group: 'org.apache.httpcomponents'
+    }
 }
-apply plugin: 'com.google.gms.google-services'
