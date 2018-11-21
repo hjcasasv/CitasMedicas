@@ -6,6 +6,10 @@ Repositorio para la materia Taller de productividad basada en herramientas tecno
 * Problema identificado
 * Solución
 * Arquitectura
+* Instalación
+* Uso
+* Creditos
+* Licencia
 * Puede acceder a la wiki en el siguiente enlace https://goo.gl/ps1EVH o en la barra superior en el boton Wiki
 
 ## Descripción
@@ -20,7 +24,13 @@ Invitamos al cliente a migrar a los entornos digitales nativos que ofrece su sma
 Debido a que nuestro cliente no queria usar los entornos digitales nativos que ofrece su smartphone la solución fue crear una aplicación en la cual pueda tener de forma independiente su agenda laboral al igual que sus notas con la garantia de que toda su información quedaria respaldada de forma local en su dispositivo y en la nube usando los servidores de Google.
 
 ## Arquitectura
+La arquitectura de la aplicación esta compuesta por diferentes secciones las cuales estan distribuidas de la siguiente manera:
 
+* Inicio:  En  esta  sección  se  muestra  el  logo  y  un  mensaje  de  bienvenida,  acompañado  de  la  fecha  actual  y  en  la  parte  inferior  se  encuentran  dos  botones  para  ir  a  la  sección  de  notas  ycitas  respectivamente.
+* Notas:  En  esta  sección  se  podrán  crear  notas  las  cuales  se  almacenarán  en  una  base  de  datos  local.
+* Citas:  En  esta  sección  se  hace  una  conexión  con  Google  calendar  para  descargar  todos  los  eventos  del  calendario  y  mostrarlos  al  usuario.
+
+La aplicación fue diseñada en AndroidStudio y esta optimizada para funcionar en optimas condiciones en cualquier dispositivo android que cuente con una version android 4 o superior.
 
 ## Instalación
 
@@ -89,7 +99,6 @@ git clone https://github.com/hjcasasv/CitasMedicas.git
 3. Tocar `Seleccionar`
 4. Elegir nota a borrar
 5. Tocar `Borrar`
-
 
 ## Créditos
 
