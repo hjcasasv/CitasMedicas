@@ -58,7 +58,38 @@ git clone https://github.com/hjcasasv/CitasMedicas.git
 
 ## Uso
 
-Esta sección se actualizara junto con la entrega final del mismo.
+**Vincular cuenta Google**
+1. Abrir aplicación
+2. Seleccionar `Citas`
+3. Tocar `Permitir` a los pop-up cuando se le soliciten los permisos de lectura
+4. Agregar nueva cuenta google o seleccionar una existente
+
+**Actualizar calendario**
+1. Abrir aplicación
+2. Seleccionar `Citas`
+3. Tocar `Sincronizar eventos`
+
+**Agregar notas**
+1. Abrir aplicación
+2. Seleccionar `Notas`
+3. Tocar `+` en la esquina inferior derecha
+4. Escribir nota
+5. tocar `guardar`
+
+**Modificar nota**
+1. Abrir Aplicación
+2. Seleccionar `Notas`
+3. Tocar nota a modificar
+4. Modificar nota
+5. Tocar `Guardar`
+
+**Borrar notas**
+1. Abrir Aplicación
+2. Seleccionar `Notas`
+3. Tocar `Seleccionar`
+4. Elegir nota a borrar
+5. Tocar `Borrar`
+
 
 ## Créditos
 
