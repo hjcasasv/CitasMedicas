@@ -30,7 +30,7 @@ La arquitectura de la aplicación esta compuesta por diferentes secciones las cu
 * Notas:  En  esta  sección  se  podrán  crear  notas  las  cuales  se  almacenarán  en  una  base  de  datos  local.
 * Citas:  En  esta  sección  se  hace  una  conexión  con  Google  calendar  para  descargar  todos  los  eventos  del  calendario  y  mostrarlos  al  usuario.
 
-La aplicación fue diseñada en AndroidStudio y esta optimizada para funcionar en optimas condiciones en cualquier dispositivo android que cuente con una version android 4 o superior.
+La aplicación fue diseñada en AndroidStudio y esta optimizada para funcionar en optimas condiciones en cualquier dispositivo android que cuente con una version android 4.0 o superior.
 
 ## Instalación
 
