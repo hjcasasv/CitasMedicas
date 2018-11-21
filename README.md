@@ -32,7 +32,7 @@ Para la correcta realizacion de este repositorio se instalaron los siguientes co
 
 + Un IDE con el cual podamos manejar el repositorio de GitHub (en este caso usaremos AndroidStudio)
 
-Para la instalación de la aplicación se puede clonar el repositorio e importarlo para obtener el archivo APK o descargar directamente el archivo APK en la sección de "Relase" de la barra superior o en siguiente enlace **insertar enlace de relase final**.
+Para la instalación de la aplicación se puede clonar el repositorio e importarlo para obtener el archivo APK o descargar directamente el archivo APK en la sección de "Relase" de la barra superior o en siguiente enlace https://goo.gl/9vQpJ7.
 
 **Instalación usando codigo fuente** 
 + **Clonar el repositorio**  
